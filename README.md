@@ -1,0 +1,71 @@
+# 🖼️ K-Means Image Clustering
+
+This project uses the **K-Means Clustering Algorithm** to simplify images by reducing them to a fixed number of colors, making them visually striking and computationally efficient. In this implementation, the number of colors is set to **5**.
+
+---
+
+## 📜 Features
+- 🟢 Cluster colors in any image into **5 representative colors**.
+- 🖌️ Output includes both the simplified image and the corresponding color palette.
+- 📊 Leverages the **K-Means Clustering Algorithm** for unsupervised learning.
+- ⚡ Fast and efficient processing, even for large images.
+
+---
+
+
+## 🚀 Usage
+
+1. Place the image you want to cluster in the `input_images` folder.
+2. Run the script:
+   ```bash
+   python cluster_image.py --input input_images/your_image.jpg --output output_images/clustered_image.jpg
+   ```
+   - Replace `your_image.jpg` with the name of your image.
+   - The simplified image will be saved in the `output_images` folder.
+
+3. 🎨 View the extracted color palette in the terminal or as an optional image.
+
+---
+
+## 🧠 How It Works
+1. **Load Image**: Read the input image and resize it for faster processing.
+2. **Flatten Image**: Convert the image into a 2D array of pixels.
+3. **K-Means Clustering**: Apply the K-Means algorithm to group pixels into 5 clusters.
+4. **Reconstruct Image**: Replace each pixel with the nearest cluster's color.
+5. **Save Output**: Save the new image and optionally display the color palette.
+
+
+---
+
+## ✨ Examples
+### Original Image
+![Original Image](C:\Users\deven\OneDrive\Pictures\Saved Pictures\my_img)
+
+### Simplified Image with 5 Colors
+![Simplified Image](C:\Users\deven\OneDrive\Pictures\Saved Pictures\new_img)
+
+---
+
+## 🛡️ Requirements
+- Python 3.7+
+- NumPy
+- OpenCV
+- Matplotlib
+
+---
+
+## 🙌 Acknowledgments
+- K-Means implementation inspired by **scikit-learn's clustering module**.
+- Image processing powered by **OpenCV**.
+
+---
+
+## 💡 Future Improvements
+- Add support for choosing the number of clusters dynamically.
+- Integrate a GUI for easier interaction.
+- Optimize performance for high-resolution images.
+
+
+
+Happy clustering! 🎉
+
