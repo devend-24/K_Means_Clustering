@@ -38,11 +38,11 @@ This project uses the **K-Means Clustering Algorithm** to simplify images by red
 ---
 
 ## ✨ Examples
-### Original Image
-![Original Image](C:\Users\deven\OneDrive\Pictures\Saved Pictures\my_img)
+![Original Image](https://github.com/user-attachments/assets/484b65b4-aa06-4587-bc3c-643200a40487)
+
 
 ### Simplified Image with 5 Colors
-![Simplified Image](C:\Users\deven\OneDrive\Pictures\Saved Pictures\new_img)
+![Simplified_Image](https://github.com/user-attachments/assets/7fdc6426-9135-48ef-9509-2d95a77edc35)
 
 ---
 
