@@ -37,27 +37,31 @@ This project uses the **K-Means Clustering Algorithm** to simplify images by red
 
 ---
 
-## ✨ Examples
+## ✨ Example 1
 ![Original Image](https://github.com/user-attachments/assets/484b65b4-aa06-4587-bc3c-643200a40487)
 
 
 ### Simplified Image with 5 Colors
 ![Simplified_Image](https://github.com/user-attachments/assets/7fdc6426-9135-48ef-9509-2d95a77edc35)
 
+
+## ✨ Example 2
+![Original Image](https://github.com/user-attachments/assets/e15c0039-c27b-4d29-a708-a332603a791e)
+
+![Simplified Image](https://github.com/user-attachments/assets/f069fbdd-c85f-49a7-9f2a-9e8c198137c5)
+
 ---
 
 ## 🛡️ Requirements
 - Python 3.7+
 - NumPy
-- OpenCV
 - Matplotlib
 
 ---
 
 ## 🙌 Acknowledgments
 - K-Means implementation inspired by **scikit-learn's clustering module**.
-- Image processing powered by **OpenCV**.
-
+- 
 ---
 
 ## 💡 Future Improvements
